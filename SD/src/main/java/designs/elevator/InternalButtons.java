@@ -1,2 +1,4 @@
-package designs.elevator;public class InternalButtons {
+package designs.elevator;
+
+public class InternalButtons {
 }

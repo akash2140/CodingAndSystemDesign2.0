@@ -1,6 +1,8 @@
-package designpatterns.strategydesign;
+package designpatterns.strategydesign.strategy;
 
-public class SpecialDrive implements DriveStrategy{
+import designpatterns.strategydesign.strategy.DriveStrategy;
+
+public class SpecialDrive implements DriveStrategy {
 
     @Override
     public void drive() {

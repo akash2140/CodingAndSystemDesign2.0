@@ -1,9 +1,11 @@
-package designpatterns.strategydesign;
+package designpatterns.strategydesign.car;
 
-public class NormalCar {
+import designpatterns.strategydesign.strategy.DriveStrategy;
+import designpatterns.strategydesign.strategy.NormalDrive;
 
-    DriveStrategy driveStrategy;
-    public NormalCar(DriveStrategy driveStrategy){
-        this.driveStrategy = driveStrategy;
+public class NormalCar extends Vehicle{
+
+    public NormalCar(){
+        super(new NormalDrive());
     }
 }

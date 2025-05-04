@@ -1,19 +1,17 @@
-package dsa;
+package dsa.leetcode;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Random;
+import java.util.*;
 
 class RandomizedSet {
 
-    List<Integer> numList;
+    LinkedList<Integer> numList;
     HashMap<Integer,Integer> numIndexMap;
 
     Random random ;
 
     public RandomizedSet() {
-        numList = new ArrayList<>();
+
+        numList = new LinkedList<>();
         numIndexMap = new HashMap<>();
         random= new Random();
     }

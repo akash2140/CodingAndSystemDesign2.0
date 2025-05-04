@@ -1,2 +1,4 @@
-package dsa.multithreading;public class ThreadSafety {
+package dsa.multithreading;
+
+public class ThreadSafety {
 }

@@ -1,10 +1,12 @@
-package designpatterns.strategydesign;
+package designpatterns.strategydesign.car;
 
-public class SportsCar {
+import designpatterns.strategydesign.strategy.DriveStrategy;
+import designpatterns.strategydesign.strategy.SpecialDrive;
 
-    DriveStrategy driveStrategy;
-    public SportsCar(DriveStrategy driveStrategy){
-        this.driveStrategy = driveStrategy;
+public class SportsCar extends Vehicle{
+
+    public SportsCar(){
+        super(new SpecialDrive());
     }
 
 }

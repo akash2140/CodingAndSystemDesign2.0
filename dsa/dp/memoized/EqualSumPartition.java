@@ -1,7 +1,5 @@
 package dsa.dp.memoized;
 
-import com.sun.org.apache.xpath.internal.operations.Bool;
-
 public class EqualSumPartition {
 
     static int result[][];

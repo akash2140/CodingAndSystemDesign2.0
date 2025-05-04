@@ -1,8 +1,10 @@
-package designpatterns.strategydesign;
+package designpatterns.strategydesign.car;
 
-public class OffroadCar {
-    DriveStrategy driveStrategy;
-    public OffroadCar(DriveStrategy driveStrategy){
-        this.driveStrategy = driveStrategy;
+import designpatterns.strategydesign.strategy.DriveStrategy;
+import designpatterns.strategydesign.strategy.SpecialDrive;
+
+public class OffroadCar extends Vehicle{
+    public OffroadCar(){
+       super(new SpecialDrive());
     }
 }

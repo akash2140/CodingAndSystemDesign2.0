@@ -1,4 +1,4 @@
-package dsa;
+package dsa.leetcode;
 
 public class SquaresNonDecreasing {
 

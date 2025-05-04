@@ -1,10 +1,12 @@
-package designs.parkinglot.parkingspot;
+package designs.parkinglot.manager;
+
+import designs.parkinglot.parkingspot.ParkingSpot;
 
 import java.util.List;
 
 public class ParkingSpotManager {
 
-    List<ParkingSpot> psList ;
+    List<ParkingSpot> psList;
 
     public ParkingSpotManager(List<ParkingSpot> psList){
         this.psList = psList;
@@ -22,5 +24,5 @@ public class ParkingSpotManager {
     public void removeSpace(ParkingSpot parkingSpot){
 
     }
-    
+
 }
